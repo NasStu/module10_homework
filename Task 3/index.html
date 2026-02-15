@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module_10. Task 3</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="chat__container">
+        <h1 class="chat__container_title">Чат c WebSocket</h1>
+        <form class="chat__container_header form" action="#">
+            <input class="header__input input" type="text" name="text" placeholder="Введите текст сообщения">
+            <button class="header__btn btn-mess">Отправить</button>
+            <button class="header__btn geo-location btn-geo">Гео-локация</button>
+        </form>
+        <div class="chat__container_message">
+            <div class="messages_user"></div>
+            <div class="messages_server">Удалить все сообщения</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 450px;
+    height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 280px;
+    text-align: center;
+    border: 7px solid rgb(255, 0, 106);
+    border-radius: 40px;
+    background-color: rgb(255, 231, 231);
+    color: rgb(255, 0, 106);
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    border: 7px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
